@@ -40,7 +40,8 @@ nav img{
 .nav-bars ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nav-bars ul li::after{
     content: '';
@@ -64,6 +65,8 @@ nav img{
     text-align: center;
 }
 .text h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10%;
     font-size: 62px;
 }
 .text p{
@@ -260,28 +263,29 @@ h3{
 }
 
 .equi-col{
-    flex-basis: 30%;
+    flex-basis: 20%;
     /* background: #4b345d; */
     border-radius: 15px;
     margin-bottom: 5%;
     margin-top: 5%;
+    height: 500px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    border: 3px solid rgb(170, 156, 156);
+    border: 1px solid rgb(170, 156, 156);
     cursor: pointer;
 }
 .equi-col:hover{
     background: #9b9090;
 }
 .equi-col img{
-    height: 300px;
-    width: 500px;
-    border: 3px solid rgb(170, 156, 156);
+    height: 200px;
+    width: 350px;
+    border: 1px solid rgb(170, 156, 156);
     border-radius: 15px;
 }
 .equi-col h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #f44336;
 }
@@ -345,7 +349,7 @@ h3{
     margin-left: 175px;
     margin-right: 175px;
     border-radius: 20px;
-    height: 750px;
+    height: 640px;
     background: rgb(31, 30, 30);
     cursor: pointer; 
     margin-top: 5%;
@@ -356,19 +360,19 @@ h3{
 .principal h4{
     margin-top: 5%;
     color: antiquewhite;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .principal p{
     color: wheat;
-    font-size: 22px;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
 }
 .foto img{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    height: 748px;
-    width: 600px;
+    height: 638px;
+    width: 400px;
     margin-left: 140px;
 
     /* height: 600px; */
@@ -386,7 +390,7 @@ h3{
 .avan{
     display: flex;
     justify-content: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: aqua;
     margin-top: 3%;
@@ -445,7 +449,7 @@ td p{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.6rem;
     color: green;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 .inscri h1{
     display: flex;
@@ -482,14 +486,22 @@ td p{
     display: flex;
     justify-content: center;
 }
-
+/* footer */
 footer{
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 a{
     text-decoration: none;
     color: #a5a3a3;
+}
+.ff{
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f44336;
+}
+.icon{
+    font-size: 1.5em;
 }
