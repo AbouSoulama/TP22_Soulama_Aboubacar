@@ -22,7 +22,7 @@ nav{
 }
 
 nav img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     border: 1px solid rgb(27, 27, 27);
     border-radius: 50px;
@@ -132,7 +132,7 @@ nav .ss{
 }
 .object-col{
     flex-basis: 25%;
-    background: #685d5d;
+    /* background: #cfcfcf; */
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -142,7 +142,7 @@ nav .ss{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-    border: 3px solid rgb(26, 25, 25);
+    /* border: 3px solid rgb(248, 178, 178); */
     cursor: pointer;
 }
 
@@ -152,7 +152,7 @@ nav .ss{
     font-size: 3rem;
 }
 .object-col p{
-    color: rgb(187, 196, 196);
+    color: rgb(111, 122, 122);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
 }
@@ -167,7 +167,7 @@ nav .ss{
     width: 150px;
     color: aliceblue;
     height: 50px;
-    background: rgb(50, 50, 223);
+    background: rgb(172, 150, 103);
     cursor: pointer;
 }
 .savoir:hover{
@@ -188,7 +188,7 @@ nav .ss{
 }
 .pro-col{
     flex-basis: 22%;
-    background: #805d9b;
+    background: #faf3f3;
     border-radius: 20px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -215,7 +215,7 @@ nav .ss{
     width: 50px;
     border-radius: 25px;
     color: wheat;
-    background: #4b345d;
+    background: #5d3437;
     border: 1px solid wheat;
     margin-top: 5%;
     cursor: pointer;
@@ -280,6 +280,16 @@ h3{
     border: 3px solid rgb(170, 156, 156);
     border-radius: 15px;
 }
+.equi-col h3{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f44336;
+}
+.equi-col p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #292626;
+}
 .eq-for{
     display: flex;
     justify-content: center;
@@ -295,7 +305,7 @@ h3{
 
 .forma-col{
     flex-basis: 20%;
-    background:  #4b345d;;
+    background:  #221a29;;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     margin-bottom: 5%;
@@ -308,7 +318,7 @@ h3{
     
 }
 .forma-col:hover{
-    background: #ae4bfa;
+    background: #668194;
 }
 .forma-col h2{
     color: azure;
@@ -383,4 +393,103 @@ h3{
 }
 .pr{
     margin-left: 50px;
+}
+
+/* Opportunité */
+
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%; 
+}
+table{
+    border-radius: 15px;
+    background: #494141;
+}
+.opp{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4em;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5%;
+}
+tr{
+    height: 75px;  
+    border: 5px solid rgb(102, 105, 110); 
+    
+}
+td{
+    width: 400px;
+    text-align: center;
+    /* background: #494141; */
+    /* border-top-left-radius: 15px; */
+    border: 2px solid rgb(252, 247, 239);
+}
+td h1{
+    color: #f44336;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+td p{
+    color: #cfc5c4;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* comment s'inscrire */
+
+.comment{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+    color: green;
+    margin-top: 4%;
+}
+.inscri h1{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color: #3f3c3c;
+    margin-top: 3%;
+}
+.inscri p{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #292626;
+}
+.inscri button{
+    background: rgb(0, 98, 128);
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    color: wheat;
+    font-size: 18px;
+    cursor: pointer;
+}
+.inscri button:hover{
+    background: rgb(85, 214, 85);
+}
+.inscri{
+    border: 2px solid burlywood;
+}
+.bout{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+a{
+    text-decoration: none;
+    color: #a5a3a3;
 }
