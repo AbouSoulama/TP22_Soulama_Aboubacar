@@ -47,7 +47,50 @@ nav img{
 nav .ss{
     display: none;
 }
-
+/* Formulaire */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: rgb(248, 213, 170);
+}
+.fi{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    height: 50px;
+}
+.ra{
+    display: flex;
+    
+}
+.ra label{
+    margin-left: 10px;
+}
+.rad{
+    margin-left: 10px;
+}
+button{
+    border-radius: 25px;
+    color: #f44336;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;   
+}
+button:hover{
+    background: #f44336;
+    color: black;
+}
+.inscription{
+    margin-left: 200px;
+}
+select{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 80%;
+    height: 50px;
+}
 
 
 
