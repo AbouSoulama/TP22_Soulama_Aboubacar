@@ -8,7 +8,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/-10.jpg);
+    background-image: linear-gradient(rgba(12, 18, 46, 0.7),rgba(20, 30, 70, 0.7)),url(images/-10.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -22,8 +22,10 @@ nav{
 }
 
 nav img{
-    width: 75px;
-    height: 50px;
+    width: 120px;
+    height: 100px;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 50px;
 }
 .nav-bars{
     flex: 1;
@@ -66,20 +68,24 @@ nav img{
 }
 .text p{
     margin: 10px 0 40px;
-    font-size: 14px;
-    color: #fff;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #9b9090;
 }
 
 .hero{
     display: inline-block;
     text-decoration: none;
     color: #fff;
-    border: 1px solid #fff;
+    border: 1px solid #e05d5d;
     padding: 12px 34px;
-    font-size: 13px;
-    background: transparent;
+    font-size: 18px;
+    background: rgb(255, 145, 0);
     position: relative;
     cursor: pointer;
+    border-radius: 25px;
+    height: 60px;
+    align-items: center;
 }
 .hero:hover{
     border: 1px solid #f44336;
@@ -116,28 +122,108 @@ nav .ss{
     }
      
 }
-
-/* Cours */
-
-.cours{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px ;
+/* visions */
+.objectif{
+    background-color: rgb(245, 240, 234);
+    height: 850px;
+}
+.objectif .row{
+    margin-top: 0;
+}
+.object-col{
+    flex-basis: 25%;
+    background: #685d5d;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 3px solid rgb(26, 25, 25);
+    cursor: pointer;
 }
 
-h1{
-    font-size: 36px;
-    font-weight: 600;
+.object-col h1{
+    color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
 }
-p{
-    color: #fff;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    padding: 10px;
-     
+.object-col p{
+    color: rgb(187, 196, 196);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
+.sa{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.savoir{
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    color: aliceblue;
+    height: 50px;
+    background: rgb(50, 50, 223);
+    cursor: pointer;
+}
+.savoir:hover{
+    background: rgb(120, 145, 255);
+}
+.v{
+    border-radius: 25px;
+}
+/* Programme */
+.h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    color: aqua;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.pro-col{
+    flex-basis: 22%;
+    background: #805d9b;
+    border-radius: 20px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 3px solid rgb(255, 226, 172);
+    cursor: pointer;
+}
+.pro-col h3{
+    color: aqua;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mast{
+    display: flex;
+    justify-content: center;
+    background: #f44336;
+    color: #9b9090;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.pro-col button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    color: wheat;
+    background: #4b345d;
+    border: 1px solid wheat;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.pro-col button:hover{
+    background: #e05d5d;
+}
+
 
 .row{
      margin-top: 5%;
@@ -145,24 +231,13 @@ p{
      justify-content: space-between;
 }
 
-.cours-col{
-    flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    box-sizing: border-box;
-    transition: 0.5s;
-}
-.cours-col p{
-    color: black;
-}
 h3{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
 }
 .cours-col:hover{
+    background: #f44336;
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 @media(max-width: 700px) {
@@ -171,50 +246,141 @@ h3{
     }
 }
 
-
-.centre{
-    width: 80%;
-    margin:auto;
-    text-align: center;
-    padding-top: 50px;
-}
-.centre-col{
-    flex-basis: 32%;
-    border-radius: 10px;
-    margin-bottom: 30px;
-    position: relative;
-    overflow: hidden;   
-}
 .row{
     display: flex;
     justify-content: space-around;
 }
 
-.mi{
-    height: 260px;
+ /* .equipement */
+
+.rows{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.centre-col img{
-    width: 100%;
+.equi-col{
+    flex-basis: 30%;
+    /* background: #4b345d; */
+    border-radius: 15px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 3px solid rgb(170, 156, 156);
+    cursor: pointer;
 }
-.layer{
-    background: rgba( );
+.equi-col:hover{
+    background: #9b9090;
+}
+.equi-col img{
+    height: 300px;
+    width: 500px;
+    border: 3px solid rgb(170, 156, 156);
+    border-radius: 15px;
+}
+.eq-for{
+    display: flex;
+    justify-content: center;
+    
+}
+.eq-for{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
 }
 
-.atelier{
-    width: 80%;
-    margin: auto;
+/* Formateurs Expérimenté */
+
+.forma-col{
+    flex-basis: 20%;
+    background:  #4b345d;;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 1px solid rgb(170, 156, 156);
+    cursor: pointer;
+    
+}
+.forma-col:hover{
+    background: #ae4bfa;
+}
+.forma-col h2{
+    color: azure;
+}
+.forma-col p{
+    color: rgb(143, 165, 165);
+}
+.format h1{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 2rem;
+    
+}
+.forma-col img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.principal{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid wheat;
+    margin-left: 175px;
+    margin-right: 175px;
+    border-radius: 20px;
+    height: 750px;
+    background: rgb(31, 30, 30);
+    cursor: pointer; 
+    margin-top: 5%;
+}
+.principal:hover{
+    background: #685d5d;
+}
+.principal h4{
+    margin-top: 5%;
+    color: antiquewhite;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.principal p{
+    color: wheat;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.foto img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 748px;
+    width: 600px;
+    margin-left: 140px;
+
+    /* height: 600px; */
+    /* width: 600px; */
+}
+.nombr{
+    border: 1px solid wheat;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background: #f44336;
     text-align: center;
-    padding-top: 100px;
+    /* font-size: 1.5rem; */
 }
-.atelier p{
-    color: black;
+.avan{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aqua;
+    margin-top: 3%;
 }
-.atelier-col{
-    flex-basis: 31%;
-    border-radius: 10px;
-}
-.image{
-    width: 200px;
-    height: 200px;
+.pr{
+    margin-left: 50px;
 }
