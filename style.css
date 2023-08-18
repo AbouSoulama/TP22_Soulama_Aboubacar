@@ -24,7 +24,7 @@ nav{
 nav img{
     width: 100px;
     height: 100px;
-    border: 1px solid rgb(27, 27, 27);
+    border: none;
     border-radius: 50px;
 }
 .nav-bars{
@@ -150,7 +150,7 @@ nav .ss{
 }
 
 .object-col h1{
-    color: aqua;
+    color: #e05d5d;
     font-family: 'Times New Roman', Times, serif;
     font-size: 3rem;
 }
@@ -184,7 +184,7 @@ nav .ss{
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    color: aqua;
+    color: #e05d5d;
     font-size: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
@@ -201,7 +201,7 @@ nav .ss{
     cursor: pointer;
 }
 .pro-col h3{
-    color: aqua;
+    color: #e05d5d;
     font-size: 2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -303,7 +303,7 @@ h3{
 .eq-for{
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
-    color: aqua;
+    color: #e05d5d;
 }
 
 /* Formateurs Expérimenté */
@@ -334,7 +334,7 @@ h3{
 .format h1{
     display: flex;
     justify-content: center;
-    color: aqua;
+    color: #e05d5d;
     font-size: 2rem;
     
 }
@@ -393,7 +393,7 @@ h3{
     justify-content: center;
     font-size: 1.1em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: aqua;
+    color: #e05d5d;
     margin-top: 3%;
 }
 .pr{
@@ -415,7 +415,7 @@ table{
     display: flex;
     justify-content: center;
     font-size: 1.4em;
-    color: aqua;
+    color: #e05d5d;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-top: 5%;
 }

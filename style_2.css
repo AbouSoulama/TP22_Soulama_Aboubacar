@@ -6,10 +6,13 @@
 }
 /* nav-bars */
 nav{
+    background-image: linear-gradient(rgba(12, 18, 46, 0.7),rgba(20, 30, 70, 0.7)),url(images/bobo.webp);
     display: flex;
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    height: 200px;
+    /* border-radius: 50px; */
 }
 nav img{
     width: 100px;
@@ -27,7 +30,7 @@ nav img{
     position: relative;
 }
 .nav-bars ul li a{
-    color: #333131;
+    color: #ffffff;
     text-decoration: none;
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
